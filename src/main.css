@@ -14,6 +14,7 @@ body {
     max-width: 800px; /* Set maximum width for slideshow */
     margin: auto;
     overflow: hidden;
+    margin-top: 20px;
 }
 
 .slides {
