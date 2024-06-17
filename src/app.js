@@ -35,8 +35,10 @@ function showSlides(n) {
 function startSlideInterval() {
     slideInterval = setInterval(() => {
         changeSlide(1);
-    }, 3000); // Change slide every 3 seconds (adjust interval as needed)
+    }, 4000); // Change slide every 3 seconds (adjust interval as needed)
 }
+
+
 
 // Function to reset automatic slideshow timer
 function resetSlideInterval() {

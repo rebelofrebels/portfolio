@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Garamond, sans-serif;
+    font-family: "pridi", serif;
     background-color: antiquewhite;
 }
 
@@ -21,13 +21,13 @@ body {
 .slides {
     width: 100%;
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 
 .slide {
     flex: 0 0 100%;
     max-width: 100%;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 
 .slide img {
@@ -166,8 +166,71 @@ footer {
 
 .name {
     font-family: "Abril Fatface", serif;
+    font-weight: 100;
+    font-style: normal;
     padding: 20px;
     text-align: center;
-    font-weight: 100;
     font-size: 200px;
+    color: #101010;
 }
+
+.pridi-extralight {
+    font-family: "Pridi", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .pridi-light {
+    font-family: "Pridi", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .pridi-regular {
+    font-family: "Pridi", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pridi-medium {
+    font-family: "Pridi", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .pridi-semibold {
+    font-family: "Pridi", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .pridi-bold {
+    font-family: "Pridi", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .arsenal-regular {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .arsenal-bold {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .arsenal-regular-italic {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .arsenal-bold-italic {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
