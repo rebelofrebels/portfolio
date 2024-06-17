@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+   }
+
 body {
     font-family: "pridi", serif;
     background-color: antiquewhite;
@@ -89,6 +93,30 @@ body {
 .thumbnail img:hover {
     border-color: #333;
 }
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.gallerys img {
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+    margin: 0 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+
+    transition: transform 0.25s;
+    transform: scale(1);
+}
+
+.zoom:hover {
+    transition: transform 0.4s;
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
 
 .container {
     width: 80%;

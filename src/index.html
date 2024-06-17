@@ -49,12 +49,12 @@
 
         
         <!-- Thumbnails for navigation -->
-        <div class="thumbnails">
-            <div class="thumbnail"><img src="DSC_0754.JPG" onclick="currentSlide(3)" alt="Thumbnail 1"></div>
-            <div class="thumbnail"><img src="DSC_0211.JPG" onclick="currentSlide(2)" alt="Thumbnail 2"></div>
-            <div class="thumbnail"><img src="DSC_0971.JPG" onclick="currentSlide(3)" alt="Thumbnail 3"></div>
-            <div class="thumbnail"><img src="A274852_A274852_023A.jpg" onclick="currentSlide(3)" alt="Thumbnail 4"></div>
-            <div class="thumbnail"><img src="A274852_A274852_010A.jpg" onclick="currentSlide(1)" alt="Thumbnail 5"></div>
+        <div class="thumbnails thumbnail">
+           <img src="DSC_0754.JPG" onclick="currentSlide(1)" alt="Thumbnail 1">
+            <img src="DSC_0211.JPG" onclick="currentSlide(2)" alt="Thumbnail 2">
+            <img src="DSC_0971.JPG" onclick="currentSlide(3)" alt="Thumbnail 3">
+            <img src="A274852_A274852_023A.jpg" onclick="currentSlide(4)" alt="Thumbnail 4">
+            <img src="A274852_A274852_010A.jpg" onclick="currentSlide(5)" alt="Thumbnail 5">
             <!-- Add more thumbnails as needed -->
         </div>
     </div>
@@ -73,20 +73,21 @@
         </div>
     </section>
 
-    <button class="button" onclick="page2btn()">
-        test
-    </button>
-
     <script src="app.js"></script>
     
     <section id="projects">
         <div class="container">
-            <h2>Projects</h2>
+            <h2>Gallery</h2>
             <div class="Gallery">
                 <h3>Project Title</h3>
-                <p>Description of the project...</p>
+                <p>erm, what the sigma?</p>
             </div>
             <!-- Add more projects as needed -->
+        </div>
+
+        <div id="pictures" class="gallery gallerys">
+            <img class="zoom " type="button" onclick="page2btn()" src="FullSizeRender.jpg">
+            <img class="zoom " type="button" onclick="page2btn()" src="DSC_0971.jpg">
         </div>
     </section>
 
