@@ -1,8 +1,11 @@
 let slideIndex = 0;
+let slideInterval;
 
 // Function to initialize the slideshow
 function initSlideShow() {
     showSlides(slideIndex);
+
+    startSlideInterval();
 }
 
 // Function to change slides
@@ -27,6 +30,19 @@ function showSlides(n) {
         thumbnails[i].classList.remove("active");
     }
     thumbnails[slideIndex].classList.add("active");
+}
+
+// Function to start automatic slideshow
+function startSlideInterval() {
+    slideInterval = setInterval(() => {
+        changeSlide(1);
+    }, 3000); // Change slide every 3 seconds (adjust interval as needed)
+}
+
+// Function to reset automatic slideshow timer
+function resetSlideInterval() {
+    clearInterval(slideInterval); // Clear previous interval
+    startSlideInterval(); // Start new interval
 }
 
 // Function to navigate directly to a slide using thumbnails

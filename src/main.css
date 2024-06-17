@@ -34,6 +34,15 @@ body {
     object-fit: cover; /* Scale images to cover container */
 }
 
+.biopic {
+
+    width: 25%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+
+}
+
 /* Navigation arrows */
 .prev, .next {
     position: absolute;
@@ -135,4 +144,13 @@ footer {
 .title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftPadding {
+    margin-left: 60px;
 }
