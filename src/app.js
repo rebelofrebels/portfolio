@@ -4,7 +4,6 @@ let slideInterval;
 // Function to initialize the slideshow
 function initSlideShow() {
     showSlides(slideIndex);
-
     startSlideInterval();
 }
 
