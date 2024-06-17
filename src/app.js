@@ -39,12 +39,12 @@ function startSlideInterval() {
 }
 
 
-
 // Function to reset automatic slideshow timer
 function resetSlideInterval() {
     clearInterval(slideInterval); // Clear previous interval
     startSlideInterval(); // Start new interval
 }
+
 
 // Function to navigate directly to a slide using thumbnails
 function currentSlide(n) {
@@ -56,5 +56,10 @@ initSlideShow();
 
 function page2btn() {
     window.location.href = 'page2.html';
+
+}
+
+function backhome() {
+    window.location.href = 'index.html';
 
 }

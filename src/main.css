@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: "pridi", serif;
-    background-color: antiquewhite;
+    background-color: #fadac1;
 }
 
 .slideshow-container {
@@ -175,6 +175,7 @@ footer {
 .title {
     font-family: "Abril Fatface", serif;
     font-weight: 20;
+    cursor: pointer;
 
 }
 
@@ -197,11 +198,23 @@ footer {
     font-family: "Abril Fatface", serif;
     font-weight: 100;
     font-style: normal;
-    padding: 20px;
+    padding-top: 20px;
     text-align: center;
-    font-size: 200px;
+    font-size: 400px;
     color: #101010;
 }
+
+.pengpng {
+font-family: "Abril Fatface", serif;
+font-weight: 100;
+font-style: normal;
+padding-top: -400px;
+text-align: center;
+font-size: 400px;
+color: #c43b39;
+}
+
+
 
 .pridi-extralight {
     font-family: "Pridi", serif;
@@ -286,3 +299,26 @@ footer {
     color: teal;
 }
 
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap between images */
+    max-width: 100%; /* Adjust the max width as needed */
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.gallery-container img {
+    width: 700px; /* Adjust the width as needed */
+    height: auto;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+    border-color: #777;
+}
