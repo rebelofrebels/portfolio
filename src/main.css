@@ -234,3 +234,21 @@ footer {
     font-style: italic;
   }
   
+  .button {
+    top: auto;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 50px;
+
+
+  }
+
+  .gallerytitle {
+    padding: 20px;
+    text-align:center;
+    font-size: 200px;
+
+
+
+  }

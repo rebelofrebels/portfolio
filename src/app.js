@@ -53,3 +53,8 @@ function currentSlide(n) {
 
 // Initialize the slideshow
 initSlideShow();
+
+function page2btn() {
+    window.location.href = 'page2.html';
+
+}
