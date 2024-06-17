@@ -178,6 +178,7 @@ footer {
 
 }
 
+
 .bio {
     display: flex;
     flex-wrap: wrap;
@@ -250,33 +251,38 @@ footer {
     font-style: normal;
   }
   
-  .arsenal-regular-italic {
+.arsenal-regular-italic {
     font-family: "Arsenal", sans-serif;
     font-weight: 400;
     font-style: italic;
-  }
+}
   
-  .arsenal-bold-italic {
+.arsenal-bold-italic {
     font-family: "Arsenal", sans-serif;
     font-weight: 700;
     font-style: italic;
-  }
+}
   
-  .button {
+.button {
     top: auto;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     padding-left: 50px;
+}
 
-
-  }
-
-  .gallerytitle {
+.gallerytitle {
     padding: 20px;
     text-align:center;
     font-size: 200px;
-
-
-
   }
+
+.textTransition {
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.textTransition:hover {
+    color: teal;
+}
+
