@@ -19,6 +19,7 @@ body {
     max-width: 100%; /* Set maximum width for slideshow */
     margin: auto;
     overflow: hidden;
+    padding-top: 200px;
     
 }
 
@@ -177,6 +178,7 @@ footer {
     font-weight: 20;
     cursor: pointer;
 
+
 }
 
 
@@ -198,23 +200,25 @@ footer {
     font-family: "Abril Fatface", serif;
     font-weight: 100;
     font-style: normal;
-    padding-top: 20px;
-    text-align: center;
+    text-align: right;
     font-size: 400px;
     color: #101010;
+    line-height: 0.7;
+    margin: 55px;
 }
 
-.pengpng {
-font-family: "Abril Fatface", serif;
-font-weight: 100;
-font-style: normal;
-padding-top: -400px;
-text-align: center;
-font-size: 400px;
-color: #c43b39;
+.front {
+display: flex;
+align-items: stretch;
+
+
 }
 
+.frontimage img {
+ height: auto;
+max-width: 500px;
 
+}
 
 .pridi-extralight {
     font-family: "Pridi", serif;
@@ -322,3 +326,4 @@ color: #c43b39;
     transform: scale(1.05);
     border-color: #777;
 }
+
