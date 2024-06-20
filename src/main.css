@@ -13,13 +13,20 @@ body {
     background-color: #fadac1;
 }
 
+body, html {
+height: 100%;
+margin: 0;
+
+
+}
+
 .slideshow-container {
     position: relative;
     width: 100%;
     max-width: 100%; /* Set maximum width for slideshow */
     margin: auto;
     overflow: hidden;
-    padding-top: 200px;
+
     
 }
 
@@ -201,22 +208,21 @@ footer {
     font-weight: 100;
     font-style: normal;
     text-align: right;
+    padding-top: 150px;
+    padding-right: 10px;
     font-size: 400px;
     color: #101010;
     line-height: 0.7;
-    margin: 55px;
-}
-
-.front {
-display: flex;
-align-items: stretch;
-
+    color: white;
 
 }
 
-.frontimage img {
- height: auto;
-max-width: 500px;
+.bg {
+background-image: url("DSC_0339-min.JPG");
+height: 75%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 
@@ -327,3 +333,26 @@ max-width: 500px;
     border-color: #777;
 }
 
+.nature-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap between images */
+    max-width: 100%; /* Adjust the max width as needed */
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.nature-container img {
+    width: auto; /* Adjust the width as needed */
+    height: 700px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.nature-container img:hover {
+    transform: scale(1.05);
+    border-color: #777;
+}

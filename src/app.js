@@ -59,6 +59,17 @@ function page2btn() {
 
 }
 
+function naturebtn() {
+    window.location.href = 'nature.html';
+
+}
+
+function filmbtn() {
+    window.location.href = 'film.html'
+
+
+}
+
 function backhome() {
     window.location.href = 'index.html';
 

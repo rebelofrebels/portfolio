@@ -24,7 +24,7 @@
         <nav class="navbar">
             <ul>
                 <li class="textTransition"><a href="#about">About</a></li>
-                <li class="textTransition"><a href="#projects">Projects</a></li>
+                <li class="textTransition"><a href="#projects">Gallery</a></li>
                 <li class="textTransition"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -33,26 +33,21 @@
 
 <body>
 
-    <div class="front">
-        <div class="frontimage">
-            <img src="self portrait.png">
-        </div>
-        <div style="flex-grow: 4">
-         <h1 class="name">
-            <span style=color:#F6723A>derek</span><br>
-            <span style=color:#c43b39>.png</span>
-        </h1>
-        </div>
-     </div>    
-    
+    <div class="bg">   
+        <h1 class="name">
+            derek</span><br>
+            <span style=color:#9dc9d4>.png</span>
+        </h1>     
+    </div>    
 
+    </section>
     <div class="slideshow-container">
         <div class="slides">
-            <div class="slide"><img src="DSC_0754.JPG" alt="Image 1"></div>
-            <div class="slide"><img src="DSC_0211.JPG" alt="Image 2"></div>
-            <div class="slide"><img src="DSC_0971.JPG" alt="Image 3"></div>
-            <div class="slide"><img src="A274852_A274852_023A.jpg" alt="Image 4"></div>
-            <div class="slide"><img src="A274852_A274852_010A.jpg" alt="Image 5"></div>
+            <div class="slide"><img src="DSC_0754-min.JPG" alt="Image 1"></div>
+            <div class="slide"><img src="DSC_0211-min.JPG" alt="Image 2"></div>
+            <div class="slide"><img src="DSC_0971-min.JPG" alt="Image 3"></div>
+            <div class="slide"><img src="A274852_A274852_023A-min.jpg" alt="Image 4"></div>
+            <div class="slide"><img src="A274852_A274852_010A-min.jpg" alt="Image 5"></div>
             <!-- Add more slides as needed -->
         </div>
         
@@ -60,46 +55,38 @@
         <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
         <a class="next" onclick="changeSlide(1)">&#10095;</a>
         
-        <!-- Thumbnails for navigation -->
-        <div class="thumbnails thumbnail">
-           <img src="DSC_0754.JPG" onclick="currentSlide(1)" alt="Thumbnail 1">
-            <img src="DSC_0211.JPG" onclick="currentSlide(2)" alt="Thumbnail 2">
-            <img src="DSC_0971.JPG" onclick="currentSlide(3)" alt="Thumbnail 3">
-            <img src="A274852_A274852_023A.jpg" onclick="currentSlide(4)" alt="Thumbnail 4">
-            <img src="A274852_A274852_010A.jpg" onclick="currentSlide(5)" alt="Thumbnail 5">
-            <!-- Add more thumbnails as needed -->
-        </div>
+     
     </div>
-
-  
 
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
                 <div class="bio">
-                    <img class="biopic" src="FullSizeRender.jpg"> </img>
+                    
                     <p class="leftPadding">
                         I like to take photos
                     </p>
                 </div>
         </div>
-    </section>
 
-    <script src="app.js"></script>
+   
     
     <section id="projects">
         <div class="container">
-            <h2>Gallery</h2>
+            <h2>Galleries</h2>
             <div class="Gallery">
-                <h3>Project Title</h3>
+                <h3>Galleries</h3>
                 <p>erm, what the sigma?</p>
             </div>
             <!-- Add more projects as needed -->
         </div>
 
         <div id="pictures" class="gallery gallerys">
-            <img class="zoom " type="button" onclick="page2btn()" src="FullSizeRender.jpg">
-            <img class="zoom " type="button" onclick="page2btn()" src="DSC_0971.jpg">
+            <img class="zoom " type="button" onclick="page2btn()" src="DSC_0034-min.JPG">
+            <img class="zoom " type="button" onclick="naturebtn()" src="DSC_0033-min.JPG">
+            <img class="zoom " type="button" onclick="filmbtn()" src="IMG_1835-min.JPG">
+            <img class="zoom " type="button" onclick="naturebtn()" src="DSC_0033-min.JPG">
+
         </div>
     </section>
 
