@@ -11,6 +11,7 @@ html {
 body {
     font-family: "pridi", serif;
     background-color: #fadac1;
+    margin: 0;
 }
 
 body, html {
@@ -134,7 +135,7 @@ margin: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: transparent;
     color: #fff;
     padding: 10px 0;
     text-align: left;
@@ -178,6 +179,8 @@ footer {
     position: bottom;
     bottom: 0;
     width: 100%;
+    margin: 0%;
+    height: 12vh;
 }
 
 .title {
@@ -218,7 +221,7 @@ footer {
 }
 
 .bg {
-background-image: url("DSC_0339-min.JPG");
+background-image: url("IMG_0022-min.jpg");
 height: 75%;
 background-position: center;
 background-repeat: no-repeat;
